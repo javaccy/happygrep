@@ -99,4 +99,6 @@ tracker](https://github.com/happypeter/happygrep/issues).
 ### License
 
 The MIT license
+## 报错 dyld: Library not loaded: /usr/local/opt/ncurses/lib/libncursesw.5.dylib
+## 在我的 macos sierra 上面没有libncursesw.5.dylib,可以使用libncursesw.6.dylib 代替 cp /usr/local/opt/ncurses/lib/libncursesw.6.dylib /usr/local/opt/ncurses/libncursesw.5.dylib
 
